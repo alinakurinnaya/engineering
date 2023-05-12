@@ -30,5 +30,5 @@ try:
             print(k, '{:.2f}v'.format(3.3 * k / 256))
 
 finally:
-    gpio.output(dac, 0)
-    gpio.cleanup()   
+    GPIO.output(dac, 0)
+    GPIO.cleanup()   
